@@ -9,7 +9,7 @@ public class StringReverserGui implements ActionListener, KeyListener{
 	JLabel message = new JLabel("Welcome to the String reverser ");
 	JLabel result = new JLabel(" ");
 	JPanel panel = new JPanel();
-	Stringreverser sr = new Stringreverser();
+	StringReverser sr = new StringReverser();
 	boolean firstpress = false;
 
 	public static void main(String[] args){
